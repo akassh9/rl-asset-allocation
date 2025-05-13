@@ -10,6 +10,7 @@ jupyter lab
 ```
 ### Project Structure
 
+...
 data/              # raw & processed datasets
 notebooks/         # exploratory notebooks
 src/               # reusable Python modules
