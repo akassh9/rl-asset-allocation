@@ -1,0 +1,21 @@
+name: rl-asset-env
+channels:
+  - conda-forge
+dependencies:
+  # core
+  - python=3.9
+  - pandas=2.2
+  - numpy=1.26
+  - scikit-learn=1.5
+  - matplotlib=3.9
+  - jupyterlab=4.2
+  # RL / finance
+  - gymnasium=0.29           # Gym wrapper
+  - stable-baselines3=2.3
+  - pytorch=2.2
+  - yfinance=0.2
+  - fredapi=0.5
+  # tooling
+  - black=24.4
+  - ruff=0.4
+  - ipykernel
